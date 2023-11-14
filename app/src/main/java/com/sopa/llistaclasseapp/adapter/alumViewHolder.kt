@@ -1,7 +1,6 @@
 package com.sopa.llistaclasseapp.adapter
 
 import android.view.View
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.sopa.llistaclasseapp.Alum
 import com.sopa.llistaclasseapp.databinding.ItemAlumBinding
