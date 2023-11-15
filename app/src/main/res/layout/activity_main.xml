@@ -12,12 +12,12 @@
             android:id="@+id/etNom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="92dp"
+            android:layout_marginTop="116dp"
             android:autofillHints=""
             android:ems="10"
+            android:hint="@string/name"
             android:inputType="text"
             android:minHeight="48dp"
-            android:hint="@string/name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,22 +28,22 @@
             android:id="@+id/editTextNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="52dp"
             android:autofillHints=""
             android:ems="10"
             android:inputType="number"
+            android:hint="@string/age"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etNom"
-            tools:ignore="LabelFor"
-            />
+            tools:ignore="LabelFor" />
 
         <Button
             android:id="@+id/Afegir"
-            android:layout_width="125dp"
-            android:layout_height="127dp"
+            android:layout_width="102dp"
+            android:layout_height="101dp"
             android:text="@string/add"
             android:textSize="48sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -51,6 +51,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.455"
             tools:text="+" />
 
         <Button
