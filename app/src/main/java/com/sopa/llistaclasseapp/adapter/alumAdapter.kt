@@ -17,5 +17,7 @@ class alumAdapter(val alumList:List<Alum>) : RecyclerView.Adapter<alumViewHolder
         holder.render(item)
     }
 
-    override fun getItemCount(): Int = alumList.size
+    override fun getItemCount(): Int {
+        return alumList.size
+    }
 }

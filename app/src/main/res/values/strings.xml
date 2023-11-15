@@ -3,4 +3,6 @@
     <string name="name">Name</string>
     <string name="button">Button</string>
     <string name="buttonSend">Button</string>
+    <string name="add">+</string>
+    <string name="send">send</string>
 </resources>
